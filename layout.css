@@ -1,0 +1,69 @@
+*{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+line-height: 1.618em;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;    
+}
+
+nav a {
+    color : #fff;
+    text-decoration: none;
+    padding: .5em 2em;
+
+}
+header {
+    margin: 0%;
+    padding: 2em 0em;
+}
+section{
+    margin: auto;
+    padding: 3em 1.618em;
+    min-height: 15em;
+    min-width: 9em;
+}
+body{
+    margin: auto;
+}
+
+h1{
+    color: red;
+}
+#Projects {
+    display: grid;
+    grid-template-columns: repeat(1,3fr);
+    grid-row:auto ;  
+
+
+
+}
+
+footer{
+    background-color: crimson;
+    text-decoration: none;
+    display: flexbox;
+    align-content: center;
+    justify-content: center;
+    color: darkred;
+}
+
+.footer-content{
+    border: 2cap;
+    margin: 0%;
+    border-style: initial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
